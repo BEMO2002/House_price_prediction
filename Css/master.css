@@ -1,0 +1,118 @@
+img{
+    max-width: 100%;
+    height: auto;
+    filter: blur(2px);
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    transform:translate(-50%,-55%) ;
+    background-color:rgba(0, 0, 0, 0.452);
+    -webkit-transform:translate(-50%,-55%) ;
+    -moz-transform:translate(-50%,-55%) ;
+    -ms-transform:translate(-50%,-55%) ;
+    -o-transform:translate(-50%,-55%) ;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    box-sizing: border-box;
+    box-shadow: 0 19px 54px white;
+
+}
+.login-box p:first-child{
+    margin: 0 0 30px ;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: beige;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+    .login-box .user-box {
+    position: relative;
+    }
+    .login-box .user-box label {
+        font-size: 16px;
+        color:#fff;
+        pointer-events: none;
+        transition: .5s;
+}
+.user-box1 {
+    height: 38px;
+    color: black;
+    padding: 9px;
+    font-size: 18px;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+.one{
+    position: absolute;
+    top: -20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.user-box2{
+    height: 38px;
+    color: black;
+    padding: 9px;
+    font-size: 18px;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+.two{
+    position: absolute;
+    top: -20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.three{
+    font-weight: bold;
+    font-size: 15px;
+}
+.four{
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+    padding: 10px;
+    background-color: #fff;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
